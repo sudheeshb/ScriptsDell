@@ -26,6 +26,6 @@ sleep 20;
 
 ssh sudheesh@dell5060  /home/sudheesh/Scripts/unmount_backup_drives.sh
 
-ssh dell5060 sudo /sbin/shutdown -h now
+#ssh dell5060 sudo /sbin/shutdown -h now
 
 
