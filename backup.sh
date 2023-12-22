@@ -1,6 +1,10 @@
 
 ssh pfsense /root/Scripts/wakeDell5060.sh
-ssh pfsense /root/Scripts/wakenas.sh
+
+#ssh pfsense /root/Scripts/wakenas.sh
+
+#Wake up NAS via Webhook.  This will turn Zigbee Third reality 2 Plug
+curl -X POST http://192.168.5.25:8123/api/webhook/-hfzkdYCYy-kRR63EDbAXdH9_
 
 sleep 180;
 
@@ -31,6 +35,9 @@ ssh dell5060 sudo /sbin/shutdown -h now
 
 #Shutdown unraid 
 ssh root@192.168.1.50 /sbin/shutdown -h now
+sleep 180;
 
+# Turn off QNAP Plug
+curl -X POST http://192.168.5.25:8123/api/webhook/-LyPeUwdhuik4CPDPqA53yLfP
 
 
