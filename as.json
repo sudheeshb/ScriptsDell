@@ -1,0 +1,55 @@
+{
+    "type": "result",
+    "timestamp": "2022-10-27T18:54:39Z",
+    "ping": {
+        "jitter": 8.754,
+        "latency": 12.189,
+        "low": 11.184,
+        "high": 28.638
+    },
+    "download": {
+        "bandwidth": 74681929,
+        "bytes": 641519272,
+        "elapsed": 8715,
+        "latency": {
+            "iqm": 79.378,
+            "low": 12.111,
+            "high": 117.011,
+            "jitter": 8.374
+        }
+    },
+    "upload": {
+        "bandwidth": 1467218,
+        "bytes": 10794840,
+        "elapsed": 7319,
+        "latency": {
+            "iqm": 26.470,
+            "low": 7.625,
+            "high": 114.758,
+            "jitter": 4.630
+        }
+    },
+    "packetLoss": 0,
+    "isp": "Comcast Cable",
+    "interface": {
+        "internalIp": "192.168.5.25",
+        "name": "enp2s0",
+        "macAddr": "D8:9E:F3:74:2E:60",
+        "isVpn": false,
+        "externalIp": "76.132.164.61"
+    },
+    "server": {
+        "id": 14204,
+        "host": "paloalto.ca.speedtest.frontier.com",
+        "port": 8080,
+        "name": "Frontier",
+        "location": "Palo Alto, CA",
+        "country": "United States",
+        "ip": "50.39.1.121"
+    },
+    "result": {
+        "id": "b0bce884-9e62-4bc2-8b65-f5e82a73d8c5",
+        "url": "https://www.speedtest.net/result/c/b0bce884-9e62-4bc2-8b65-f5e82a73d8c5",
+        "persisted": true
+    }
+}

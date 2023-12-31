@@ -1,8 +1,17 @@
 ARCHIVE=$(date '+%Y-%b-%d')
-SOURCE_DIR="/usr/share/hassio/homeassistant/backups"
+
+#SOURCE_DIR="/usr/share/hassio/homeassistant/backups"
+SOURCE_DIR="/usr/share/hassio/homeassistant"
 BACKUP_DIR="sudheesh@dell5060:/media/hdrive/Backup/HA"
+
+docker stop hass
+
 borg create $BACKUP_DIR::$ARCHIVE  $SOURCE_DIR
+
+docker start hass
+
 borg prune -v --list   --keep-within=30d $BACKUP_DIR
+
 
 
 #SOURCE_DIR="/usr/share/hassio/homeassistant/backups"

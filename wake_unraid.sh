@@ -1,0 +1,1 @@
+ssh root@192.168.1.1e /root/Scripts/wake_unraid.sh

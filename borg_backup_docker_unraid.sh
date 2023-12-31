@@ -1,6 +1,6 @@
 ARCHIVE=$(date '+%Y-%b-%d')
 SOURCE_DIR="/home/sudheesh/Docker"
-BACKUP_DIR="root@192.168.1.54:/mnt/disk1/Backup/Docker"
+BACKUP_DIR="root@192.168.1.50:/mnt/cache/Backup/Docker"
 #EXLUDE_DIR=' --exclude '*.log'  --exclude '*.db'  --exclude 'Frigate/Storage'     --exclude  'Adguard/Work/data"
 
 

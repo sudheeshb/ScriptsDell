@@ -1,0 +1,2 @@
+find /home/sudheesh/Docker/ \( -iname "*.yaml" -o  -iname "*.yml" -o -iname "*.sh" \)   -print  |xargs  tar -czf ~/Test/Docker.
+tar
